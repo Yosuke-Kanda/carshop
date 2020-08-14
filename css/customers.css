@@ -1,0 +1,44 @@
+ul {
+    list-style-type: square;
+    list-style-position: inside;
+    /* list-style: url("bullet_image.jpg") disc inside; */
+}
+
+ul li {
+    background-color: red;
+    margin-bottom: 20px;
+    margin:20px 30px 40px 50px;
+    padding-top: 30px;
+    border: 10px black solid;
+    padding:30px 40px 50px 60px;
+    display: inline-block;
+    width: 300px;
+    box-sizing:content-box;
+}
+
+.customer {
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background: pink url("Nomura.png") repeat center;
+
+}
+
+#nomura{
+    background-image: url("../images/Nomura.png");
+}
+
+#softbank{
+    background-image: url("../images/Softbank.png");
+}
+
+#jal{
+    background-image: url("../images/JAL.png");
+}
+
+#ana{
+    background-image: url("../images/ANA.png");
+}
